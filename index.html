@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi pagina web</h1>
+        <p>Bienvenido a mi pagina web</p>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pages/Proyectos.html">Proyectos</a>
+            <a href="pages/Contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h2>Sobre mí</h2>
+            <p>Estos certificados representan parte del esfuerzo que he dedicado a mi aprendizaje en programación y tecnología. 
+        No los veo como una meta final, sino como pasos que me motivan a seguir creciendo y mejorando cada día.
+            </p>
+            <a class="btn btn-primary" onclick="mostrarMensaje()">Click me</a>
+            <img src="img/perfil7.png">
+        </section>
+        <section class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <p class="descripcion">
+                Estas son algunas de las áreas en las que tengo experiencia y sigo desarrollándome.
+            </p>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Domino la creación de estructuras web con HTML y el diseño visual con CSS, aplicando buenas prácticas y estilos modernos.</p>
+                </div>
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>Tengo habilidades para programar la interacción en sitios web, crear funciones dinámicas y mejorar la experiencia del usuario.</p>
+                </div>
+                <div class="card">
+                    <h3>Python</h3>
+                    <p>Conozco el uso de Python para resolver problemas lógicos, automatizar tareas y desarrollar proyectos básicos en el área de software.</p>
+                </div>
+                <div class="card">
+                    <h3>Bases de Datos</h3>
+                    <p>Experiencia en manejar bases de datos relacionales (MySQL) para almacenar, organizar y consultar información de manera eficiente.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flip-section">
+            <h2>Mis certificados</h2>
+            <p> A lo largo de mi aprendizaje he obtenido algunos certificados que reflejan mi esfuerzo y dedicación en el mundo de la programación. 
+    No lo considero un logro final, sino un paso más en mi formación, ya que sigo aprendiendo cada día para mejorar mis conocimientos 
+    y habilidades.</p>
+            <div class="flip-contenedor">
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de estudios</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.png" alt="certificado de estudios">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de estudios</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.png" alt="certificado de estudios">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de estudios</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.png" alt="certificado de estudios">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de estudios</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.png" alt="certificado de estudios">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-contacto">
+                <h3>Contacto</h3>
+                <p>Email: leandro@ticliahuanca.pe</p>
+                <p>Telefono: +51 927565345</p>
+                <p>Ubicación: Piura, Perú</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Leandro Ticliahuanca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="imgModal" class="Modal">
+        <span class="cerrar">&times;</span>
+        <img class="modal-contenedor" id="modalImg">
+    </div>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
